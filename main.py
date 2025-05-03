@@ -1,9 +1,9 @@
-import streamlit as st
+import streamlit as st # type: ignore
 import hashlib
 import os
 import time
 import json
-from cryptography.fernet import Fernet
+from cryptography.fernet import Fernet # type: ignore
 from base64 import urlsafe_b64encode
 from hashlib import pbkdf2_hmac
 
